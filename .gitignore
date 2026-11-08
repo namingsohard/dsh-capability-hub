@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Data that lives in the DSH home, never in the package
+library.json
+library.v1.backup.json
+
+# Local development artifacts
+*.report.json
+*.tgz
+.cache/
+.test-deps/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
