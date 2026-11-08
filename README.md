@@ -63,13 +63,13 @@ release changes a mechanism this plugin depends on, it degrades loudly in the UI
 ### From GitHub
 
 ```bash
-dsh plugin --profile desktop add github:<owner>/capability-hub
+dsh plugin --profile desktop add github:namingsohard/dsh-capability-hub
 ```
 
 Pin a release when you want reproducible Sessions:
 
 ```bash
-dsh plugin --profile desktop add github:<owner>/capability-hub#v0.4.0
+dsh plugin --profile desktop add github:namingsohard/dsh-capability-hub#v0.4.0
 ```
 
 Then **restart DSH**. The host half is composed at startup, so a newly added bundle is not live until the restart;
@@ -78,7 +78,7 @@ the client half appears after the restart with the rest of the Settings page.
 ### From a local checkout (development)
 
 ```bash
-git clone https://github.com/<owner>/capability-hub.git
+git clone https://github.com/namingsohard/dsh-capability-hub.git
 dsh plugin --profile desktop add link:$(pwd)/capability-hub
 ```
 

@@ -59,13 +59,13 @@ DeepSeek Harness 允许一个插件、一个 Skill、一个 MCP 服务器存在�
 ### 从 GitHub 安装
 
 ```bash
-dsh plugin --profile desktop add github:<owner>/capability-hub
+dsh plugin --profile desktop add github:namingsohard/dsh-capability-hub
 ```
 
 需要可复现的会话时钉住版本：
 
 ```bash
-dsh plugin --profile desktop add github:<owner>/capability-hub#v0.4.0
+dsh plugin --profile desktop add github:namingsohard/dsh-capability-hub#v0.4.0
 ```
 
 装完**重启 DSH**。host 半边在启动时编排，新加入的 bundle 不重启不会真的生效；重启后客户端半边随设置页一起出现。
@@ -73,7 +73,7 @@ dsh plugin --profile desktop add github:<owner>/capability-hub#v0.4.0
 ### 从本地检出安装（开发用）
 
 ```bash
-git clone https://github.com/<owner>/capability-hub.git
+git clone https://github.com/namingsohard/dsh-capability-hub.git
 dsh plugin --profile desktop add link:$(pwd)/capability-hub
 ```
 
